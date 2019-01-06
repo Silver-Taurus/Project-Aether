@@ -1,12 +1,25 @@
 /* Scanner for Aether made in FLEX */
+%option noyywrap()
 %{
 #include <stdio.h>
-#include "y.tab.h"
+#include "grammar.tab.h"
 
-int line_number = 0 ;
-
-void yyerror(char *message) ;
+void yyerror(char *message);
 
 %}
 
+alpha           [a-zA-Z]+
+string          \'([^'\n]|\'\')+\'
+whitespace      [ \r\t\v\f]
+linefeed        \n
+
+%%
+{alpha}         { return ALPHA; }
+{string}        { return STRING; }
+":"             { return COLON; }
+";"             { return SEMICOLON; }
+"("             { return LEFT_BRACKET; }
+")"             { return RIGHT_BRACKET; }
+{whitespace}    { }
+{linefeed}      { ++yylineno; }
 %%
