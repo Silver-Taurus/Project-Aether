@@ -1,5 +1,5 @@
 /* Scanner for Aether made in FLEX */
-%option noyywrap()
+%option noyywrap
 %{
 #include <stdio.h>
 #include "grammar.tab.h"
