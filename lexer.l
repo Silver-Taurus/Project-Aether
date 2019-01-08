@@ -1,5 +1,6 @@
 /* Scanner for Aether made in FLEX */
-%option noyywrap
+%option noyywrap yylineno
+
 %{
 #include <stdio.h>
 #include "grammar.tab.h"
@@ -21,5 +22,5 @@ linefeed        \n
 "("             { return LEFT_BRACKET; }
 ")"             { return RIGHT_BRACKET; }
 {whitespace}    { }
-{linefeed}      { ++yylineno; }
+
 %%
