@@ -1,0 +1,77 @@
+## Comments ##
+ ``` # This is a single line comment ```
+ ``` ### This is a multiline comment ### ```
+
+ ## Keywords ##
+ __Data Types__
+  1. int
+  2. real
+  3. char
+  4. string
+  5. bool
+  6. void
+  7. pointer
+
+__Data Type Modifier__
+ 1. signed
+ 2. unsigned
+ 3. long
+ 4. long long
+ 5. short
+
+__Control statements__
+  1. for
+  2. for each
+  3. while
+  4. break
+  5. continue
+  6. if
+  7. else
+  8. elif
+  9. switch
+  10. return
+  11. in
+  12. as
+  13. define
+
+
+__Access specifier__
+ 1. private
+ 2. public
+ 3. protected
+ 4. shared
+ 5. default
+
+
+__Remaining Keywords__
+ 1. static
+ 2. extern
+ 3. auto
+ 4. class
+ 5. enum
+ 6. union
+ 7. try
+ 8. catch
+ 9. throw
+ 10. self (this)
+ 11. root
+ 12. abstract
+ 13. virtual
+ 14. module
+ 15. import
+ 16. const
+ 17. yield
+
+__Extra Data Types__
+ 1. List
+ 2. dict
+ 3. array
+ 4. vector
+ 5. set
+ 6. pair
+ 7. time series
+ 8. matrix
+ 9. dataframe
+ 10.tuple
+ 11.stack
+ 12.Queue
