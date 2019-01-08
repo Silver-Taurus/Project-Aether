@@ -75,8 +75,10 @@ linefeed        \n
 "default"	{ return KEYWORD_DEFAULT; }
 "break"		{ return KEYWORD_BREAK; }
 "return"	{ return KEYWORD_RETURN; }
-["and",&&]	{ return KEYWORD_AND: }
-["or",||]	{ return KEYWORD_OR; }
-["not",!]	{ return KEYWORD_NOT; }
+"static"	{ return KEYWORD_STATIC; }
+"extern"	{ return KEYWORD_EXTERN; }
+"const"		{ return KEYWORD_CONST; }
 
 %%
+
+
