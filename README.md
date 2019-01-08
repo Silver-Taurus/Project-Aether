@@ -38,7 +38,7 @@ while(condition)
 
 __Function declaration__
 ```
-function_name(arg_list : data_type) : return_type
+def function_name(arg_list : data_type) : return_type
   statements
 
 f(x) = x + 4 or x*x for x in iterator
